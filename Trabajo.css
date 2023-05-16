@@ -1,0 +1,147 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+#cabecera {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: none;
+    text-align: center;    
+}
+#titulo{
+    flex-grow:0.5;
+    text-align:center;
+}
+.ayd {
+    width: 100%;
+    text-align: center;
+  }
+.accordion-flush .accordion-collapse {
+    border-width: 0;
+    margin-left: -202px;
+}
+.accordion-header {
+  margin-bottom: 0;
+  margin-left: -195px;
+  margin-right: 200px;
+}
+.accordion-button:hover{
+        cursor: pointer;
+        border-color: black;
+        background-color: rgb(170, 197, 255);
+        color: black;}
+.accordion-button{
+        border-color: black;
+        background-color: rgb(70, 128, 255);
+        color: black;
+        margin-left: 200px;
+        margin-top: 20px;
+}
+.accordion-body{
+    border-color: black;
+    color: black;
+    margin-left: 373px;
+    margin-top: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    border-color: black;
+    background-color: rgb(214, 211, 255);
+    color: black;
+ }
+ .accordion-flush {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn {
+  border-color: black;
+  background-color: rgb(133, 255, 198);
+  color: black;
+  margin-left: -141px;
+  margin-top: 9px;
+}
+
+.linkp{
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.linkp img {
+    margin-left: 10px;
+  }
+.mante1 {
+  width: 100%;
+  margin-left: 15px;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+.carousel-control-prev-icon {
+    background-image: url(flecha1.png);
+    background-color: red;
+    border-radius: 100px;
+}
+.carousel-control-next-icon {
+    background-image: url(flecha2.png);
+    background-color: green;
+    border-radius: 100px;
+}
+#carouselExampleFade {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-item img {
+    width: 50%;
+    height: auto;
+}
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+  }
+  .accordion-button img {
+    margin-left: 10px;
+  }
+  .accordion{
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 600px) {
+    .container-items {
+      display: flex;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      flex-direction: column;
+    }
+}
+footer{
+  background-color: rgb(52, 124, 217);
+  text-align: center ;
+  color: white;
+}
+  

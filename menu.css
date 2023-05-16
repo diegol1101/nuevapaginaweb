@@ -1,0 +1,108 @@
+* {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin: 0px;
+    padding: 4px;
+    }
+
+
+.contenedor{
+    background-color: #e2e2e2;
+    text-align: end;
+}
+    .titulo{
+        text-align: center;
+        color: solid black;
+        background-color: aqua;
+    }
+    .imagen-principal{ 
+        display: flex;
+        justify-content: center; 
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+        margin: none;
+        text-align: center; 
+        position: relative;   
+    }
+
+    .ayuda{
+        margin-left: 297px;
+    }
+    .accordion-flush .accordion-collapse {
+        border-width: 0;
+        margin-left: -202px;
+    }
+    .accordion-header {
+        margin-bottom: 0;
+        margin-left: -200px;
+        margin-right: 200px;
+    }
+    .accordion-button:hover{
+        cursor: pointer;
+        border-color: black;
+        background-color: rgb(194, 194, 22);
+        color: black;
+    }
+    .accordion-button{
+        border-color: black;
+        background-color: rgb(194, 194, 22);
+        color: black;
+        margin-left: 200px;
+        margin-top: 20px;
+        
+    }
+    .accordion-body{
+        border-color: black;
+        color: black;
+        margin-left: 373px;
+        margin-top: 20px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        border-color: black;
+        background-color: rgb(214, 211, 255);
+        color: black;
+        margin-right:20px ;
+     }
+     .btn {
+        border-color: black;
+        background-color: rgb(133, 255, 198);
+        color: black;
+        margin-left: 102px;
+        margin-bottom: 20px;
+        border-radius: 10%;
+        
+    }
+
+    .linkp{
+        color: black;
+        text-decoration: none;
+        border: 3px;
+    }
+    .linkp img {
+        margin-left: 20px;
+    }
+    .mante1 {
+        margin-top: 30px;
+        margin-left: 316px;
+        margin-right: 227px;
+        
+    }
+    .carousel-control-prev-icon {
+        background-image: url(flecha1.png);
+    }
+    .carousel-control-next-icon {
+        background-image: url(flecha2.png);
+    }
+    
+    .imagen{
+        margin-left: 20px;
+    }
+    footer{
+        background-color: rgb(52, 124, 217);
+        text-align: center ;
+        color: white;
+    }

@@ -1,0 +1,29 @@
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.titulo{
+    margin-top: 2%;
+    text-align: center;
+    background-color: bisque;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-left: 3%;
+    background-color: bisque;
+}
+
+.col1{
+    margin-top: 5%;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(52, 124, 217);
+    text-align: center ;
+    color: white;
+}
